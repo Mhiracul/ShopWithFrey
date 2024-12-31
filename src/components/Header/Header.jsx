@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full font-outfit bg-dark-gradient py-4  text-white px-10">
+    <header className="w-full font-outfit bg-dark-gradient py-4  text-white md:px-10 px-4">
       <div
         className="container mx-auto  bg-gradient  justify-center bg-gradient-to-br h-full from-[#2d2d2d] to-transparent  
             bg-opacity-20 shadow-lg rounded-full"
@@ -22,7 +22,7 @@ const Header = () => {
         <div className="container mx-auto flex justify-between items-center py-4 px-10">
           {/* Logo */}
           <div className="flex items-center text-xl font-bold ">
-            <h1 className="uppercase  bg-clip-text text-transparent bg-text-gradient text-xl font-bold">
+            <h1 className="uppercase  bg-clip-text text-transparent bg-text-gradient md:text-xl text-base font-bold">
               frey digitals
             </h1>{" "}
           </div>
