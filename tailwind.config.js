@@ -6,6 +6,21 @@ export default {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"], // Custom font
       },
+      animation: {
+        "spin-bounce": "spin 1s infinite, bounce 1s infinite",
+
+        "slow-spin": "spin 3s linear infinite",
+      },
+      keyframes: {
+        spin: {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(180deg)" },
+        },
+        bounce: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
       backgroundImage: {
         "dark-gradient": "linear-gradient(to right, #131313, #191919)",
         "text-gradient":

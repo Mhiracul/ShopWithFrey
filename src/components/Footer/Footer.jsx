@@ -33,7 +33,7 @@ const Footer = () => {
             Let's Synergize
           </h1>
           <p
-            className="text-[#999] text-sm max-w-md font-light text-center"
+            className="text-[#999] text-sm max-w-md font-light px-4 text-center"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -139,10 +139,16 @@ const Footer = () => {
       <div className="w-full md:px-10 px-4 mt-5 flex md:flex-row flex-col items-center justify-between">
         <div className="inline-flex gap-3 items-center">
           <p className="text-xs text-[#999] font-light ">{currentDate}</p>
-          <a href="" className="text-xs text-[#999] ">
+          <a
+            href="https://www.instagram.com/earn_with_frey"
+            className="text-xs text-[#999] "
+          >
             Instagram
           </a>
-          <a href="" className="text-xs text-[#999]">
+          <a
+            href="https://www.tiktok.com/@earn_with_frey"
+            className="text-xs text-[#999]"
+          >
             tiktok
           </a>
         </div>

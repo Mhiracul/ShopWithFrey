@@ -32,53 +32,17 @@ const Header = () => {
             <Link to="/" className="hover:text-[#f5b754] font-light">
               Home
             </Link>
-            <Link to="/about" className="hover:text-[#f5b754] ">
-              About
+            <Link to="/content-creation" className="hover:text-[#f5b754] ">
+              Content
             </Link>
-            <Link to="/services" className="hover:text-[#f5b754] ">
-              Services
+            <Link to="/affiliate-marketing" className="hover:text-[#f5b754] ">
+              Affiliate
             </Link>
 
             {/* Cars Dropdown */}
-            <div className="relative group">
-              <button
-                onClick={() => setShowCarsDropdown(!showCarsDropdown)}
-                className="flex items-center hover:text-[#f5b754] "
-              >
-                Cars <RiArrowDropDownLine className="ml-1" />
-              </button>
-              {showCarsDropdown && (
-                <div className="absolute left-0 mt-2 bg-[#222] z-20 text-white min-w-48 p-4 rounded-md shadow-lg">
-                  <Link
-                    to="/car-sales"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Sales
-                  </Link>
-                  <Link
-                    to="/car-rentals"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Rentals
-                  </Link>
-                  <Link
-                    to="/car-repaint"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Repaint
-                  </Link>
-                  <Link
-                    to="/car-details"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Details
-                  </Link>
-                </div>
-              )}
-            </div>
 
-            <Link to="/contact" className="hover:text-[#f5b754] ">
-              Contact
+            <Link to="/consultation" className="hover:text-[#f5b754] ">
+              Consultation
             </Link>
 
             <div className="flex space-x-6 items-center">
@@ -100,7 +64,7 @@ const Header = () => {
                   <div className="text-left">
                     <p className="text-xs">Need help?</p>
                     <h5 className="text-sm text-[#f5b754]">
-                      <a href="tel:+2348124985138">81 2498 5138</a>
+                      <a href="tel:+2349036321216">90 3632 1216</a>
                     </h5>
                   </div>
                 </a>
@@ -127,54 +91,19 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/about" className="block py-2">
-                About
+              <Link to="/content-creation" className="block py-2">
+                Content
               </Link>
             </li>
             <li>
-              <Link to="/services" className="block py-2">
-                Services
+              <Link to="/affiliate-marketing" className="block py-2">
+                Affiliate
               </Link>
             </li>
+
             <li>
-              <button
-                onClick={() => setShowCarsDropdown(!showCarsDropdown)}
-                className="py-2 flex justify-between items-center w-full"
-              >
-                Cars <RiArrowDropDownLine />
-              </button>
-              {showCarsDropdown && (
-                <div className="bg-[#222] text-white px-4 py-2">
-                  <Link
-                    to="/car-sales"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Sales
-                  </Link>
-                  <Link
-                    to="/car-rentals"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Rentals
-                  </Link>
-                  <Link
-                    to="/car-repaint"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Repaint
-                  </Link>
-                  <Link
-                    to="/car-details"
-                    className="block py-1 hover:text-[#f5b754]"
-                  >
-                    Car Details
-                  </Link>
-                </div>
-              )}
-            </li>
-            <li>
-              <Link to="/contact" className="block py-2">
-                Contact
+              <Link to="/consultation" className="block py-2">
+                Consultation
               </Link>
             </li>
           </ul>

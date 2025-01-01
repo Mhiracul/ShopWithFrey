@@ -38,9 +38,6 @@ const Content = () => {
       <div className="container mx-auto md:px-10 px-4 py-20">
         <div className="flex lg:flex-row flex-col items-center gap-10">
           <div className=" text-sm bg-gradient md:px-10 px-5 py-3 text-white justify-center bg-gradient-to-br h-full from-[#2d2d2d] to-transparent bg-opacity-20 shadow-lg rounded-xl">
-            <h1>
-              Here's a polished and convincing message to promote your course:{" "}
-            </h1>
             <p>
               Are you ready to take your TikTok game to the next level and start
               getting noticed by brands?{" "}

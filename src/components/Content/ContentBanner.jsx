@@ -10,7 +10,7 @@ const ContentBanner = () => {
   }, []);
   return (
     <div
-      className="w-full bg-white h-full font-gilroy relative"
+      className="w-full bg-white h-full font-outfit relative"
       style={{
         backgroundImage: `url(${hero})`,
         backgroundSize: "cover",
